@@ -1,12 +1,66 @@
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('../lato-regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
 html {
     margin: 0;
     padding: 0;
 }
 body {
+    /*font-family: 'Lato Regular';*/
     margin: 0;
     padding: 0;
 }
 
 h1 {
     color: #427777;
+}
+
+.btn-inverse {
+  color: #ffffff;
+  background-color: #34495e;
+}
+.btn-inverse:hover,
+.btn-inverse.hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active,
+.open > .dropdown-toggle.btn-inverse {
+  color: #ffffff;
+  background-color: #415b76;
+  border-color: #415b76;
+}
+.btn-inverse:active,
+.btn-inverse.active,
+.open > .dropdown-toggle.btn-inverse {
+  background: #2c3e50;
+  border-color: #2c3e50;
+}
+.btn-inverse.disabled,
+.btn-inverse[disabled],
+fieldset[disabled] .btn-inverse,
+.btn-inverse.disabled:hover,
+.btn-inverse[disabled]:hover,
+fieldset[disabled] .btn-inverse:hover,
+.btn-inverse.disabled.hover,
+.btn-inverse[disabled].hover,
+fieldset[disabled] .btn-inverse.hover,
+.btn-inverse.disabled:focus,
+.btn-inverse[disabled]:focus,
+fieldset[disabled] .btn-inverse:focus,
+.btn-inverse.disabled:active,
+.btn-inverse[disabled]:active,
+fieldset[disabled] .btn-inverse:active,
+.btn-inverse.disabled.active,
+.btn-inverse[disabled].active,
+fieldset[disabled] .btn-inverse.active {
+  background-color: #bdc3c7;
+  border-color: #34495e;
+}
+.btn-inverse .badge {
+  color: #34495e;
+  background-color: #ffffff;
 }
