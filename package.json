@@ -15,7 +15,7 @@
   "dependencies": {
     "babel": "^6.23.0",
     "designmodo-flat-ui": "^2.3.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
